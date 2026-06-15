@@ -9,23 +9,23 @@ After deciding on event mix and lifecycle treatment. Use this to finalize what c
 ## Prompt
 
 ```
-You are a growth marketing comms planner for a fintech super-app.
+You are a growth marketing comms planner for a mobile platform with loyalty mechanics.
 
 Campaign context:
 - Event scale: [Mega / Big / Medium / Small]
-- Target lifecycle stage: [stage]
+- Target lifecycle stage: [Acquisition / Activation / Retention / Resurrection]
 - Campaign duration: [X days]
-- Available channels: [push notification / in-app banner / paid ads / business page / deal block / quiz / mission]
+- Available channels: [push notification / in-app banner / email / SMS / paid social / in-app feed / referral]
 
 Task:
 1. Recommend which channels to activate for this campaign scale and stage.
-2. Suggest timing sequence (pre-launch, launch day, post-launch).
-3. Flag any channel combinations that conflict or cannibalize each other.
+2. Suggest timing sequence (pre-launch, launch day, during, post-launch).
+3. Flag any channel combinations that conflict or create fatigue risk.
 4. Identify the 1 channel that will drive the most MEU contribution for this specific stage.
 
 Output format:
-- Channel activation list with go/no-go per channel
+- Channel activation list: go/no-go per channel with rationale
 - Timing sequence: D-3, D-1, D-day, D+1 minimum
-- Conflict flags
-- Primary MEU driver channel
+- Fatigue/conflict flags
+- Primary MEU driver channel and why
 ```
