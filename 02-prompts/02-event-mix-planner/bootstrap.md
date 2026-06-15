@@ -27,8 +27,8 @@ Context:
 - Budget: [tight / moderate / flexible]
 
 Event scale reference:
-- Mega: 1-2/year, mass ATL, >=50% discount, traffic spike
-- Big: monthly, mass ATL, >=30% discount
+- Mega: 1-2/year, broad reach, >=50% discount, traffic spike
+- Big: monthly, broad reach, >=30% discount
 - Medium: repeated monthly, >=20% discount
 - Small: weekly/daily, frequency builder, >=15% discount
 - Always-on: lifecycle segment treatment, never stops
