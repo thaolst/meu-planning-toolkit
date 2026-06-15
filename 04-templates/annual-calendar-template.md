@@ -4,20 +4,20 @@ Copy and fill in for your planning cycle.
 
 ## Full Year Event Calendar
 
-| Month | Scale | Audience | Event type | Campaign name | BUs/Categories | Notes |
+| Month | Scale | Audience | Event type | Campaign name | Categories/Partners | Notes |
 |---|---|---|---|---|---|---|
-| Jan | Big | Mass ATL | Monthly repeated | [name] | | |
-| Feb | Big | Mass ATL | Monthly repeated | [name] | | |
-| Mar | Big | Mass ATL | Monthly repeated | [name] | | |
-| Apr | Big | Mass ATL | Monthly repeated | [name] | | |
-| May | Medium | Mass ATL | One-off | [name] | | |
-| Jun | Mega | Mass ATL | One-off | [name] | | |
-| Jul | Big | Mass ATL | Monthly repeated | [name] | | |
-| Aug | Medium | Mass ATL | One-off | [name] | | |
-| Sep | Big | Mass ATL | Monthly repeated | [name] | | |
-| Oct | Big | Mass ATL | Monthly repeated | [name] | | |
-| Nov | Mega | Mass ATL | One-off | [name] | | |
-| Dec | Big | Mass ATL | Monthly repeated | [name] | | |
+| Jan | Big | Mass | Monthly repeated | [name] | | |
+| Feb | Big | Mass | Monthly repeated | [name] | | |
+| Mar | Big | Mass | Monthly repeated | [name] | | |
+| Apr | Big | Mass | Monthly repeated | [name] | | |
+| May | Medium | Mass | One-off | [name] | | |
+| Jun | Mega | Mass | One-off | [name] | | |
+| Jul | Big | Mass | Monthly repeated | [name] | | |
+| Aug | Medium | Mass | One-off | [name] | | |
+| Sep | Big | Mass | Monthly repeated | [name] | | |
+| Oct | Big | Mass | Monthly repeated | [name] | | |
+| Nov | Mega | Mass | One-off | [name] | | |
+| Dec | Big | Mass | Monthly repeated | [name] | | |
 
 ## Always-On Activities (run every month)
 
@@ -32,7 +32,7 @@ Copy and fill in for your planning cycle.
 
 | Activity | Frequency | Category | Scale | Notes |
 |---|---|---|---|---|
-| [name] | Daily | FnB | Small | |
+| [name] | Daily | [category] | Small | |
 | [name] | Weekly | [category] | Small | |
 | [name] | Weekends | [category] | Medium | |
 
@@ -51,4 +51,4 @@ Copy and fill in for your planning cycle.
 
 - Fill MEU contribution estimates after running `03-tools/meu_calculator.py`
 - Review and update monthly against actual MEU numbers
-- Flag any campaigns needing cross-BU coordination
+- Flag any campaigns needing cross-team coordination
