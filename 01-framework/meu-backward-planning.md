@@ -20,7 +20,7 @@ Before planning any campaign, know where your gap comes from.
 | Stage | Definition | Typical contribution to MEU gap |
 |---|---|---|
 | Acquisition | Never transacted or lapsed 6m+ | High if pool is large |
-| Activation | Registered but never engaged with P&L | Medium |
+| Activation | Registered but not yet engaged with core product | Medium |
 | Retention | Active but frequency dropping | High if churn is rising |
 | Resurrection | Lapsed 1-6 months | Medium, high ROI if segment is large |
 
@@ -38,14 +38,14 @@ Run `02-prompts/01-meu-gap-analysis/bootstrap.md` to get your breakdown.
 
 A full-year MEU plan needs all 4 layers running simultaneously:
 
-- Mega/Big: 1-3 per year, traffic spikes, mass ATL
-- Medium: Monthly repeated (e.g. MoMo Day equivalent)
-- Small: Weekly repeated (e.g. weekend themes, category days)
-- Always-on: Lifecycle treatment by segment, never stops
+- Mega/Big: 1-3 per year, traffic spikes, broad reach
+- Medium: monthly repeated event
+- Small: weekly repeated mechanic (weekend themes, category days)
+- Always-on: lifecycle treatment by segment, never stops
 
 ## Opinionated defaults
 
 - Never plan a Mega event without an always-on base. Spikes convert better when users already have the habit.
 - Resurrection segment responds best to time-limited offers with a clear deadline.
 - Activation segment needs a low-friction first transaction - minimize steps, maximize discount depth.
-- Retention segment needs frequency mechanics (streaks, missions, collect-to-redeem) more than discount depth.
+- Retention segment needs frequency mechanics (streaks, challenges, collect-to-redeem) more than discount depth.
