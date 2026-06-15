@@ -11,19 +11,19 @@ After knowing your event mix. Use this to get specific on what to offer each seg
 | Stage | Definition | MEU contribution logic |
 |---|---|---|
 | Acquisition | New users or lapsed 6m+ | Grows the base, high cost, lower CVR |
-| Activation | Registered, first transaction not yet in P&L | High CVR potential, low cost |
+| Activation | Registered, first transaction not yet completed | High CVR potential, low cost |
 | Retention | Active users, frequency at risk | Defend MEU, highest ROI |
 | Resurrection | Lapsed 1-6 months | Re-engage before permanent churn |
 
 ## Prompt
 
 ```
-You are a lifecycle marketing strategist for a fintech platform with loyalty mechanics (points, vouchers, missions).
+You are a lifecycle marketing strategist for a fintech platform with loyalty mechanics (points, vouchers, challenges).
 
 Context:
 - Priority stage: [stage from gap analysis]
-- Platform type: [super-app / digital wallet / fintech]
-- Available mechanics: [voucher / loyalty points / mission / quiz / gamification / push notification]
+- Platform type: [super-app / digital wallet / fintech / e-commerce]
+- Available mechanics: [voucher / loyalty points / challenge/streak / referral / push notification / email / in-app banner]
 - Budget constraint: [tight / moderate / flexible]
 
 For the priority stage, provide:
