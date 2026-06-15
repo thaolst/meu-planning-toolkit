@@ -61,7 +61,7 @@ def recommend_campaign_ladder(gap_pct: float, priority_stage: str) -> list:
         campaigns.append({
             "scale": "Mega",
             "quantity": 1,
-            "mechanic": "Spotlight deal block + push + paid ads",
+            "mechanic": "Hero placement + push notification + paid social",
             "target_stage": "All",
             "estimated_meu_contribution_pct": 30,
         })
@@ -69,7 +69,7 @@ def recommend_campaign_ladder(gap_pct: float, priority_stage: str) -> list:
     campaigns.append({
         "scale": "Big",
         "quantity": 4 if gap_pct > 10 else 2,
-        "mechanic": "Spotlight + Standard deal block",
+        "mechanic": "Featured placement + in-app banner",
         "target_stage": priority_stage,
         "estimated_meu_contribution_pct": 25,
     })
@@ -108,7 +108,7 @@ def run(target: int, current_base: int, priority_stage: str = "retention",
     lifecycle_gaps = estimate_lifecycle_gap(gap_result["gap"], stage_weights)
     campaign_ladder = recommend_campaign_ladder(gap_result["gap_pct"], priority_stage)
 
-    print(f"MEU Gap Analysis")
+    print("MEU Gap Analysis")
     print(f"  Target:       {target:,}")
     print(f"  Current base: {current_base:,}")
     print(f"  Gap:          {gap_result['gap']:,} users ({gap_result['gap_pct']}%)")
