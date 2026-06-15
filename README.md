@@ -8,7 +8,7 @@ Built from real fintech growth campaigns in SEA.
 
 Most campaign planning starts from a brief or a budget. This repo starts from the MEU gap:
 
-> "Mình can bao nhieu MEU nua de hit target? Campaign nao se dong gop nhieu nhat?"
+> "How many more MEU do I need to hit target? Which campaigns will contribute the most?"
 
 That question drives everything else - event mix, lifecycle treatment, channel selection, budget split.
 
